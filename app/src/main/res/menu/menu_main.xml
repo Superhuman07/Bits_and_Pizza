@@ -9,5 +9,13 @@
     <item android:id="@+id/action_create_order"
         android:title="@string/action_create_order"
         android:icon="@mipmap/ic_launcher"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        />
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
 </menu>
